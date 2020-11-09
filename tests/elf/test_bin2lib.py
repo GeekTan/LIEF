@@ -281,8 +281,5 @@ if __name__ == "__main__":
 
     root_logger = logging.getLogger()
     root_logger.addHandler(logging.StreamHandler())
-    #root_logger.setLevel(lief.)
-    for h in root_logger.handlers:
-        h.setLevel(LOGGING_LEVEL)
 
     unittest.main(verbosity=2)
